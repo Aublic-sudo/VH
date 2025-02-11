@@ -1,3 +1,4 @@
+
 {
     "paidCommands": false,
     "JoinClaim": false,
@@ -50,7 +51,6 @@
         "top watermark": "",
         "bottom left watermark": "\n____________________________________\n\n\n____________________________________\n",
         "center highlights": {
-            "enable": false,
             "color": [
                 1,
                 0,
@@ -58,58 +58,50 @@
             ],
             "randomColor": true,
             "msg": [
-                "\ue048WELCOME TO VORTEX VS HONOR OFFICIAL\ue048",
-                "\ue043JOIN OUR DISCORD : VH PARADISE :)\ue043",
-                "\ue048TYPE (/vp) TO KNOW VOTING PLAYLIST\ue048",
-                "\ue048TYPE (/acl) TO KNOW ADMIN COMMANDS\ue048",
-                "\ue048TYPE (/coinhelp) TO KNOW HOW TO BUY EFFECTS AND MANY MORE..\ue048",
-                "\ue048TYPE (/vcl) TO KNOW VIP COMMANDS\ue048",
-                "\ue043TYPE END TO START END VOTE\ue043",
-                "\ue046START MSG WITH PREFIX .(dot) TO SEND IN GAME POPUP MSG\ue046",
-                "\ue048TYPE NV TO START NV VOTE\ue048",
-                "\ue048TYPE (/vp) TO KNOW VOTING PLAYLIST\ue048",
-                "\ue043TYPE (/cs) TO FIND OUT HOW TO COMPLAINT IN DISCORD SERVER FROM GAME",
-                "\ue043TYPE (/dclink) TO KNOW HOW TO LINK PBID TO DISCORD-ID & GET REWARDs",
-                "\ue049START MSG WITH PREFIX ,(comma) TO SEND MSG TO TEAMMATES\ue049",
-                "\ue043PLEASE RESPECT OTHER PLAYERS\ue043",
-                "\ue049JOIN OUR DISCORD SERVER BY CLICKING ON STATS BUTTON\ue049",
-                "\ue046DO NOT TEAMING WITH ANY PLAYER OR YOU WILL BE PUNISHED\ue046",
-                "\ue046TYPE (/shop effects) TO KNOW AVILABLE EFFECTS\ue046"
+                "\ue048*Swagat hai bhai AUBLIC VS TENDER OFFICIAL mein!*\ue048",
+                "\ue043*Join karo humare Discord server! 🙂*\ue043",
+                "\ue043*Type karo 'END' vote start karne ke liye! 🗳️*\ue043",
+                "\ue046*In-game popup message bhejne ke liye .(dot) prefix laga ke bhejo! 🎮*\ue046",
+                "\ue048*Type karo 'NV' vote start karne ke liye! 🗳️*\ue048",
+                "\ue048*Type karo (/vp) Voting Playlist dekhne ke liye! 🎶*\ue048",
+                "\ue043*Type karo (/cs) Agar complaint karna ho Discord pe! 🛠️*\ue043",
+                "\ue049*Team mates ke liye ,(comma) prefix laga ke message bhejo! 👥*\ue049",
+                "\ue043*Bhai jyada bakchodi mat kar! 😅*\ue043",
+                "\ue049*Stats button pe click karke hamare Discord server mein join karo! 💬*\ue049"
             ]
         }
     },
     "ScoreScreenAnnouncement": {
         "enable": true,
         "msg": [
-            "enjoy here :)",
-            "click stats button to join discord",
-            "type (/vp) to know voting playlist",
-            "download new mods from discord",
-            "use /ping all to check others ping.",
-            "start msg with prefix ,(comma) to send msg to teammates",
-            "type (/cs) to find out how to complaint in discord server from game",
-            "type (/coinhelp) to know how to buy effects and many more..",
-            "type (/dclink) to know how to link pbid to discord-id & get rewards",
-            "join our discord : vh paradise :)",
-            "type vp to know voting playlist",
-            "please respect other players :)",
-            "start msg with prefix .(dot) to send in game popup msg",
-            "click stats button to join discord server",
-            "get notification when friends join this server, checkout leaderboard",
-            "abusers, spammers will get auto ban",
-            "doesnt matter who starts fight, if you abuse- you will get ban too.",
-            "type (/shop effects) to know available effects"
+            "🎮 *Maza karo yahan! 🔥*",
+            "📲 *Stats button pe click karo aur Discord join karo! 💬*",
+            "🗳️ *Voting playlist dekhne ke liye (/vp) type karo! 🎶*",
+            "🔽 *Naye mods download karne ke liye humare Discord server pe jao! 📥*",
+            "🌐 *Ping check karne ke liye /ping all type karo! 🔍*",
+            "📝 *Team mates ko message bhejne ke liye ,(comma) laga ke bhejo! 🎯*",
+            "🛠️ *Complaint karne ke liye /cs type karo! 💬*",
+            "💥 *Effects aur zyada cheezein lene ke liye /coinhelp type karo! 💰*",
+            "🎉 *Discord join karo! 🥳*",
+            "📱 *Voting playlist ke liye type karo /vp! 🎶*",
+            "😇 *Dusre players ka izzat karo! 🙏*",
+            "💬 *In-game popup message bhejne ke liye .(dot) prefix laga ke bhejo! 🎮*",
+            "📲 *Stats button pe click karke join karo hamare Discord server ko! 💬*",
+            "📢 *Friends join karte hi notification milega aur leaderboard dekho! 🏆*",
+            "🚫 *Abusers aur spammers ko auto-ban kar diya jayega! ⚔️*",
+            "💥 *Koi bhi fight shuru kare, agar abuse karoge toh ban ho jaoge! ⚠️*",
+            "🛍️ *Effects aur aur cheezein dekhne ke liye /shop effects type karo! 💎*"
         ]
     },
     "TopMapText": {
-        "enable": true,
+        "enable": false,
         "msg": [
-            "\ue062VORTEX\ue062",
-            "\ue04bVORTEX x HONOR\ue04b",
-            "\ue048HONOR\ue048",
-            "\ue04bVORTEX x HONOR\ue04b",
-            "\ue062VORTEX\ue062",
-            "\ue048HONOR\ue048"
+            "\ue062*VORTEX*\ue062",
+            "\ue04b*VORTEX x HONOR*\ue04b",
+            "\ue048*HONOR*\ue048",
+            "\ue04b*VORTEX x HONOR*\ue04b",
+            "\ue062*VORTEX*\ue062",
+            "\ue048*HONOR*\ue048"
         ]
     },
     "statsResetAfterDays": 45,
@@ -118,7 +110,7 @@
         "barsBehindName": true
     },
     "autoNightMode": {
-        "enable": true,
+        "enable": false,
         "startTime": "18:30",
         "endTime": "06:30",
         "Snowfall": true,
@@ -157,24 +149,24 @@
     },
     "ballistica_web": {
         "enable": false,
-        "server_password": "sercet_server_159"
+        "server_password": "45rt@"
     },
     "character_chooser": {
         "enable": true
     },
     "custom_characters": {
-        "enable": true
+        "enable": false 
     },
     "StumbledScoreScreen": true,
     "elPatronPowerups": {
-        "enable": true,
+        "enable": false, 
         "settings": {
             "Powers Gravity": true,
             "Tank Shield PTG": 96,
             "Healing Damage PTG": 72,
             "Powerup Style": "Auto",
             "Powerup Scale": 1.0,
-            "Powerup Name": true,
+            "Powerup Name": false,
             "Powerup With Shield": false,
             "Powerup Time": true,
             "Powerups": {
@@ -187,21 +179,21 @@
                 "Sticky Bombs": 3,
                 "Curse": 1,
                 "Health": 1,
-                "Speed": 2,
+                "Speed": 0,
                 "Healing Damage": 0,
                 "Goodbye": 2,
-                "Ice Man": 1,
+                "Ice Man": 0,
                 "Tank Shield": 0,
                 "Impairment Bombs": 2,
-                "Fire Bombs": 3,
+                "Fire Bombs": 0,
                 "Champion": 0,
                 "Spunch": 0,
                 "Radius": 0,
                 "Multi Bomb": 0,
                 "PWP": 0,
-                "ExtraLyfe": 2,
+                "ExtraLyfe": 0,
                 "False Bombs": 0,
-                "Fly Bombs": 2
+                "Fly Bombs": 0
             }
         },
         "Quantity": {
@@ -214,27 +206,27 @@
             "Sticky Bombs": 3,
             "Curse": 1,
             "Health": 1,
-            "Speed": 2,
+            "Speed": 0,
             "Healing Damage": 0,
-            "Goodbye": 2,
+            "Goodbye": 0,
             "Ice Man": 1,
             "Tank Shield": 0,
             "Impairment Bombs": 2,
-            "Fire Bombs": 3,
+            "Fire Bombs": 0,
             "Champion": 0,
             "Spunch": 0,
             "Radius": 0,
             "Multi Bomb": 0,
             "PWP": 0,
-            "ExtraLyfe": 2,
+            "ExtraLyfe": 0,
             "False Bombs": 0,
-            "Fly Bombs": 2
+            "Fly Bombs": 0
         }
     },
     "discordbot": {
-        "enable": false,
-        "database_name": "default",
-        "token": "<bot-token-here>",
+        "enable": true,
+        "database_name": "default1",
+        "token": "MTI5Nzg3OTYwNDUzODkwMDU2Mg.GJsyYr.tWTkGIiCO3RvuLiq0zugAWS63sK6GYx_ylecoI",
         "liveChat": true,
         "liveStatsChannelID": 1237851459899625512,
         "logsChannelID": 1177676398803034153,
@@ -247,8 +239,8 @@
             803681951109873724,
             856735876423483454
         ],
-        "bot_prefix": "<bot-prefix-here>",
-        "commands_prefix": "<command-prefix-here>",
+        "bot_prefix": "bs",
+        "commands_prefix": "!",
         "complaint_role": "<complaint_role_id_here>",
         "notify_role": "<notify_role_id_here>"
     },
@@ -286,7 +278,7 @@
         "lobby_idle_time_in_secs": 150
     },
     "playermod": {
-        "default_boxing_gloves": true,
+        "default_boxing_gloves": false,
         "default_shield": false,
         "default_bomb": "normal",
         "default_bomb_count": 2
@@ -295,8 +287,8 @@
         "enable": true,
         "betrayWarnCooldownMinutes": 5,
         "maxWarnCount": 5,
-        "afterBetrayWarnKickMsg": "You have been kicked for betraying your team!",
-        "betraywarnMsg": "Warning: Betraying your teammates is not allowed!"
+        "afterBetrayWarnKickMsg": "Aapko apne team ko dhoka dene ke liye kick kiya gaya hai!🤬",
+        "betraywarnMsg": "Warning: Apne team mates ko dhoka dena allowed nahi hai!😏"
     },
     "allowTeamChat": true,
     "allowVotes": true,
@@ -305,32 +297,33 @@
     "allowInGameDm": true,
     "newResultBoard": true,
     "HostDeviceName": "v1.4",
-    "HostName": "VH-v2.0",
+    "HostName": "AUBLIC",
     "ShowKickVoteStarterName": true,
     "autoTeamBalance": true,
     "KickVoteMsgType": "chat",
     "minAgeToChatInHours": 78,
     "minAgeToJoinInHours": 120,
-    "maxWarnCount": 2,
+    "maxWarnCount": 3,
     "WarnCooldownMinutes": 30,
     "ComplainterExpired": true,
     "complaintTimeoutInHours": 3,
     "maxAccountPerIP": 3,
     "maxPlayersPerDevice": 2,
-    "warnMsg": "WARNING !!! DONT DO AGAIN! :)",
-    "afterWarnKickMsg": "Enough warnings, Goodbye have a nice day :)",
-    "firstTimeJoinMsg": "\ud83c\udf1fWelcome to the vh paradise bang\ud83c\udf1f",
-    "regularWelcomeMsg": "\ud83d\udc4bWelcome back to vh paradise bang\ud83d\udc4b",
+    "warnMsg": "⚠️ *WARNING!!! DONT DO AGAIN! :) *",
+    "afterWarnKickMsg": "Bhai, bohot ho gaya tera, Goodbye have a nice day 🫠",
+    "firstTimeJoinMsg": "\ud83c\udf1f *kya hal hai bhai!!* \ud83c\udf1f",
+    "regularWelcomeMsg": "\ud83d\udc4b👋 *Bhai, roj aaya kar khelne! Mazza aayega! 😊🔥\ud83d\udc4b",
     "contributeData": true,
     "enabletags": true,
-    "enablehptag": true,
+    "enablehptag": false,
     "enablerank": true,
     "enablestats": true,
-    "enableOldHitTexts": true,
-    "enableNewHitTexts": true,
+    "enableOldHitTexts": false,
+    "enableNewHitTexts": false,
     "enableeffects": true,
-    "ShiningPlayers": true,
+    "ShiningPlayers": false,
     "enableTop5effects": true,
     "EnablePlayerProfilesTag": true,
     "enableTagAnimation": true
 }
+
