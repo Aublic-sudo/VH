@@ -24,18 +24,18 @@ client = Bot(command_prefix='v!', intents=intents)
 
 stats = {}
 livestatsmsgs = []
-logsChannelID = 859519868838608970
-liveStatsChannelID = 1079019991694839818
-notifyChannelID = 1079019991694839818
-complaintChannelID = 859519868838608970
-whitelisted_servers = 1168272029280112673
-whitelisted_users = 123456789012345678
+logsChannelID = 
+liveStatsChannelID = 
+notifyChannelID = 
+complaintChannelID = 
+whitelisted_servers = 
+whitelisted_users = 
 CurrencyName = ''
 notify_role = ''
 complaint_role = ''
 prefix = ''
 commands_prefix = ''
-liveChat = True
+liveChat = false,
 token = ''
 logs = []
 current_directory = os.path.dirname(os.path.abspath(__file__))
