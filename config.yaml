@@ -5,7 +5,7 @@
 # Uncomment any of these values to override defaults.
 
 # Name of our server in the public parties list.
-party_name: " Teams @ india [AUBLIC VS TENDER]" 
+party_name: "Teams @ india [Aublic X Thunder]" 
 
 # If true, your party will show up in the global public party list
 # Otherwise it will still be joinable via LAN or connecting by IP address.
@@ -20,7 +20,8 @@ authenticate_clients: true
 # kick vote system and they are able to kick players without a vote. To get
 # your account id, enter 'getaccountid' in settings->advanced->enter-code.
 admins:
-- pb
+- pb-IF4TVXJZCg==
+
 # Whether the default kick-voting system is enabled.
 enable_default_kick_voting: true
 
@@ -57,7 +58,7 @@ playlist_code: 445446
 
 # If true, keeps team sizes equal by disallowing joining the largest team
 # (teams mode only).
-#auto_balance_teams: true
+auto_balance_teams: true
 
 # The campaign used when in co-op session mode.
 # Do print(ba.app.campaigns) to see available campaign names.
@@ -74,7 +75,7 @@ playlist_code: 445446
 # the mgr.cmd() function in the server script. Run your server through
 # tools such as 'screen' or 'tmux' and you can reconnect to it remotely
 # over a secure ssh connection.
-#enable_telnet: false
+enable_telnet: false
 
 # Series length in teams mode (7 == 'best-of-7' series; a team must
 # get 4 wins)
@@ -91,7 +92,7 @@ ffa_series_length: 24
 # currently-signed-in account's id. To fetch info about an account,
 # your back-end server can use the following url:
 # http://bombsquadgame.com/accountquery?id=ACCOUNT_ID_HERE
-stats_url: https://discord.gg/jqvBdd7C
+stats_url: https://discord.gg/Z6NS8CzUan
 
 # If present, the server subprocess will attempt to gracefully exit after
 # this amount of time. A graceful exit can occur at the end of a series
@@ -118,8 +119,8 @@ stats_url: https://discord.gg/jqvBdd7C
 
 # Team names (teams mode only).
 team_names:
-- Aublic
-- Tender
+- Marines
+- Pirates
 
 # Team colors (teams mode only).
 team_colors:
