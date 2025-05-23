@@ -1,4 +1,4 @@
-Released under the MIT License. See LICENSE for details.
+#Released under the MIT License. See LICENSE for details.
 
 """ TODO need to set coordinates of text node , move timer values to settings.json """
 
