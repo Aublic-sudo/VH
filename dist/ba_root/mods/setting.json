@@ -48,7 +48,7 @@
         ]
     },
     "textonmap": {
-        "top watermark": "💣 No Camping, Just Bombing! 💥",
+        "top watermark": "💣 No Spamming, Just Bombing! 💥",
         "bottom left watermark": "\n____________________________________\n\n\n____________________________________\n",
         "center highlights": {
             "color": [
@@ -77,7 +77,6 @@
             "🎮 *Maza karo yahan! 🔥*",
             "📲 *Stats button pe click karo aur Discord join karo! 💬*",
             "🗳️ *Voting playlist dekhne ke liye (/vp) type karo! 🎶*",
-            "🔽 *Naye mods download karne ke liye humare Discord server pe jao! 📥*",
             "🌐 *Ping check karne ke liye /ping all type karo! 🔍*",
             "📝 *Team mates ko message bhejne ke liye ,(comma) laga ke bhejo! 🎯*",
             "🛠️ *Complaint karne ke liye /cs type karo! 💬*",
@@ -226,22 +225,22 @@
     "discordbot": {
         "enable": false,
         "database_name": "default1",
-        "token": "MTI5Nzg3OTYwNDUzODkwMDU2Mg.GJsyYr.tWTkGIiCO3RvuLiq0zugAWS63sK6GYx_ylecoI",
+        "token": "",
         "liveChat": true,
-        "liveStatsChannelID": 1237851459899625512,
-        "logsChannelID": 1177676398803034153,
-        "complaintChannelID": "<complaint_channel_id>",
-        "notifyChannelID": "<notify_channel_id>",
+        "liveStatsChannelID": 1335202527527833683,
+        "logsChannelID": 1335202527527833684,
+        "complaintChannelID": "1335202527527833685",
+        "notifyChannelID": "1335204773452054661",
         "whitelisted_servers": [
-            803681951109873724
+            1335202526466670645
         ],
         "allowed_user_ids": [
-            803681951109873724,
-            856735876423483454
+           1335202526466670645 
+            
         ],
         "bot_prefix": "bs",
         "commands_prefix": "!",
-        "complaint_role": "<complaint_role_id_here>",
+        "complaint_role": "1335202526466670645",
         "notify_role": "<notify_role_id_here>"
     },
     "autoadmin": {
