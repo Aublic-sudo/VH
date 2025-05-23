@@ -24,12 +24,12 @@ client = Bot(command_prefix='v!', intents=intents)
 
 stats = {}
 livestatsmsgs = []
-logsChannelID = 
-liveStatsChannelID = 
-notifyChannelID = 
-complaintChannelID = 
-whitelisted_servers = 
-whitelisted_users = 
+logsChannelID = 1335202527527833684
+liveStatsChannelID = 1335202527527833683
+notifyChannelID = 1335204773452054661
+complaintChannelID = 1335202527527833685
+whitelisted_servers = 1335202526466670645
+whitelisted_users = 1290946109371580417
 CurrencyName = ''
 notify_role = ''
 complaint_role = ''
