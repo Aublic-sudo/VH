@@ -2,7 +2,17 @@
 
 """ TODO need to set coordinates of text node , move timer values to settings.json """
 
-from ba._generated.enums import TimeType import ba, _ba import ba.internal import setting from stats import mystats from datetime import date, datetime from features import map import pytz import random import members.members as mid
+from ba._generated.enums import TimeType
+import ba
+import _ba
+import ba.internal
+import setting
+from stats import mystats
+from datetime import date, datetime
+from features import map
+import pytz
+import random
+import members.members as mid
 counts = mid.members size = len(counts)
 setti=setting.get_settings_data() time_str = map.update_season_info()
 
