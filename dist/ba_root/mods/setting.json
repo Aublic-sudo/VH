@@ -9,7 +9,7 @@
     "useV2Account": false,
     "Anti-IdRevealer": false,
     "ServerForWhitelistplayers": {
-        "enable": false,
+        "enable": true,
         "AllowedRoles": [
             "owner",
             "staff",
