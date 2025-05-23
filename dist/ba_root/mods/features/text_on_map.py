@@ -141,7 +141,7 @@ def left_watermark(self, text):
    )   
     node = _ba.newnode('text',
                         attrs={
-                            'text':u'\ue043[\U0001F451] OWNER : ⚡AUBLIC⚡\n\ue048[\U0001F6E0] MANAGED BY : ✨TENDER✨',
+                            'text':u'\ue043[\U0001F451] OWNER : ⚡𝖠ublic⚡\n\ue048[\U0001F6E0] MANAGED BY : ✨Tendersec✨',
                             'flatness': 1.0,
                             'h_align': 'left',
                             'v_attach':'bottom',
