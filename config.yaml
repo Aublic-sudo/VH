@@ -5,7 +5,7 @@
 # Uncomment any of these values to override defaults.
 
 # Name of our server in the public parties list.
-party_name: "Teams @ india [Aublic X Thunder]" 
+party_name: "Teams @ india [Aublic X Tendersec]" 
 
 # If true, your party will show up in the global public party list
 # Otherwise it will still be joinable via LAN or connecting by IP address.
@@ -75,7 +75,7 @@ auto_balance_teams: true
 # the mgr.cmd() function in the server script. Run your server through
 # tools such as 'screen' or 'tmux' and you can reconnect to it remotely
 # over a secure ssh connection.
-enable_telnet: false
+enable_telnet: true
 
 # Series length in teams mode (7 == 'best-of-7' series; a team must
 # get 4 wins)
@@ -92,7 +92,7 @@ ffa_series_length: 24
 # currently-signed-in account's id. To fetch info about an account,
 # your back-end server can use the following url:
 # http://bombsquadgame.com/accountquery?id=ACCOUNT_ID_HERE
-stats_url: https://discord.gg/Z6NS8CzUan
+stats_url: https://discord.gg/2Q7zKTa5QB
 
 # If present, the server subprocess will attempt to gracefully exit after
 # this amount of time. A graceful exit can occur at the end of a series
