@@ -264,7 +264,7 @@
     "Paideffects": {
         "Expired": true,
         "timedelta": "days",
-        "ExpriyPaideffectTime": "1"
+        "ExpriyPaideffectTime": "3"
     },
     "discordWebHook": {
         "enable": false,
@@ -318,7 +318,7 @@
     "enablerank": true,
     "enablestats": true,
     "enableOldHitTexts": false,
-    "enableNewHitTexts": false,
+    "enableNewHitTexts": true,
     "enableeffects": true,
     "ShiningPlayers": false,
     "enableTop5effects": true,
