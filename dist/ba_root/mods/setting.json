@@ -225,7 +225,7 @@
     "discordbot": {
         "enable": false,
         "database_name": "default1",
-        "token": "",
+        "token": "KUej98lv5wpHJr3leF-yB8PWJiqyld9c",
         "liveChat": true,
         "liveStatsChannelID": 1335202527527833683,
         "logsChannelID": 1335202527527833684,
