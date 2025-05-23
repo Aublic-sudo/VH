@@ -10,7 +10,7 @@
             "ALL"
         ],
         "ids": [
-            "",
+            "pb-IF4TVXJZCg==",
             ""
         ]
     },
@@ -383,7 +383,7 @@
             "playsound",
             "ooh"
         ],
-        "ids": []
+        "ids": [pb-IF4TVXJZCg==]
     },
     "pros": {
         "tag": "\u1d18\u0280\u1d0fs",
@@ -393,7 +393,7 @@
             1
         ],
         "commands": [],
-        "ids": []
+        "ids": [pb-IF4TVXJZCg==]
     },
     "top5": {
         "tag": "\\d\u1d1b\u1d0f\u1d18-\u1d0d\u1d07\u1d0d\u0299\u1d07\u0280\\d",
@@ -419,7 +419,7 @@
             1
         ],
         "commands": [],
-        "ids": []
+        "ids": [pb-IF4TVXJZCg==]
     },
     "whitelist": {
         "tag": "\\dWHITELIST_PLAYER\\d",
@@ -430,7 +430,7 @@
         ],
         "commands": [],
         "ids": [
-            ""
+            "pb-IF4TVXJZCg=="
         ]
     },
     "tourney": {
