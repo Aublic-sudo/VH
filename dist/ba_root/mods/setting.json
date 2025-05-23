@@ -224,7 +224,7 @@
         }
     },
     "discordbot": {
-        "enable": true,
+        "enable": false,
         "database_name": "default1",
         "token": "MTI5Nzg3OTYwNDUzODkwMDU2Mg.GJsyYr.tWTkGIiCO3RvuLiq0zugAWS63sK6GYx_ylecoI",
         "liveChat": true,
