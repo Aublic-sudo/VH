@@ -1,9 +1,9 @@
 #!/usr/bin/env -S python3.10 -O
 
 # Released under the MIT License. See LICENSE for details.
-from flask import Flask
 from __future__ import annotations
-import os,signal,subprocess, sys, time, _thread, logging, platform, shutil, json
+from flask import Flask
+import os, signal, subprocess, sys, time, _thread, logging, platform, shutil, json
 from pathlib import Path
 from threading import Lock, Thread, current_thread, Timer
 from typing import TYPE_CHECKING
