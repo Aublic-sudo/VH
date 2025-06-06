@@ -1,17 +1,14 @@
 FROM python:3.10-slim
 
-# Install basic packages
+# Install needed packages
 RUN apt-get update && apt-get install -y \
     git tmux sudo \
     && apt-get clean
 
-# Set working directory
 WORKDIR /app
-
-# Copy all server files into container
 COPY . .
 
-# Install all required Python packages
+# Install Python dependencies
 RUN pip install \
     requests \
     pymongo \
@@ -21,11 +18,12 @@ RUN pip install \
     six \
     pynacl
 
-# Make necessary files executable
+# Fix for /etc/machine-id missing error
+RUN echo "d3f07e6d5b624a2ab2c4e556eb123456" > /etc/machine-id
+
+# Make server scripts executable
 RUN chmod +x ./bombsquad_server && chmod +x ./dist/bombsquad_headless
 
-# Expose BombSquad server port
 EXPOSE 43210
 
-# Start the BombSquad server
 CMD ["./bombsquad_server"]
