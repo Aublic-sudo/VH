@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 COPY . .
 
-# Install Python dependencies
+# Install Python dependencies including Flask
 RUN pip install \
     requests \
     pymongo \
@@ -25,9 +25,9 @@ RUN echo "d3f07e6d5b624a2ab2c4e556eb123456" > /etc/machine-id
 # Make server scripts executable
 RUN chmod +x ./bombsquad_server && chmod +x ./dist/bombsquad_headless
 
-# Expose both Flask (8080) and BombSquad server port (43210)
-EXPOSE 8080
+# Expose BombSquad and Flask ports
 EXPOSE 43210
+EXPOSE 8080
 
-# Start both Flask keep-alive and bombsquad_server via Python script
-CMD ["python3", "start_server.py"]
+# Run your original script
+CMD ["./bombsquad_server"]
