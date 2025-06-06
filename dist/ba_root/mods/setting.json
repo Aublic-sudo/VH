@@ -225,7 +225,7 @@
     "discordbot": {
         "enable": true,
         "database_name": "default1",
-        "token": "",
+        "token": os.getenv("DISCORD_TOKEN", ""),
         "liveChat": true,
         "liveStatsChannelID": 1335202527527833683,
         "logsChannelID": 1335202527527833684,
