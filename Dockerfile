@@ -1,15 +1,22 @@
 FROM python:3.10-slim
 
-# Install needed packages
+# Labels (optional)
+LABEL maintainer="yourname@domain.com"
+LABEL description="Modded BombSquad server with auto dependencies"
+
+# System packages
 RUN apt-get update && apt-get install -y \
-    git tmux sudo \
+    git tmux sudo curl \
     && apt-get clean
 
+# Set work dir
 WORKDIR /app
+
+# Copy all local files to Docker image
 COPY . .
 
-# Install Python dependencies including Flask
-RUN pip install \
+# Install Python dependencies
+RUN pip install --no-cache-dir \
     requests \
     pymongo \
     psutil \
@@ -17,17 +24,17 @@ RUN pip install \
     pywebpush \
     six \
     pynacl \
-    flask
+    flask \
+    discord.py
 
-# Fix for /etc/machine-id missing error
+# Fix missing machine-id issue
 RUN echo "d3f07e6d5b624a2ab2c4e556eb123456" > /etc/machine-id
 
-# Make server scripts executable
-RUN chmod +x ./bombsquad_server && chmod +x ./dist/bombsquad_headless
+# Make executables
+RUN chmod +x bombsquad_server dist/bombsquad_headless
 
-# Expose BombSquad and Flask ports
-EXPOSE 43210
-EXPOSE 8080
+# Expose game and API ports
+EXPOSE 43210 8080
 
-# Run your original script
+# Start BombSquad server
 CMD ["./bombsquad_server"]
