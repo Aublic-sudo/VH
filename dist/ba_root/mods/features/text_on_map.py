@@ -127,7 +127,7 @@ class textonmap:
             'color': (1, 1, 1)
         })
         _ba.newnode('text', attrs={
-            'text': u'\ue043[\U0001F451] OWNER : ⚡𝖠ublic⚡\n\ue048[\U0001F6E0] MANAGED BY : ✨Tendersec✨',
+            'text': u'\ue043[\U0001F451] OWNER : ⚡Rixie⚡\n\ue048[\U0001F6E0] MANAGED BY : ✨Tendersec✨',
             'flatness': 1.0,
             'h_align': 'left',
             'v_attach': 'bottom',
